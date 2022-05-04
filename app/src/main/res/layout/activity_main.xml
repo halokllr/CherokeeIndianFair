@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainpagebg"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/appHeader"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/header"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/digohweli"
+            android:text="109th Cherokee Indian Fair"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/appFooter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appHeader">
+
+        <android.widget.Button
+            android:id="@+id/aboutButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="@font/digohweli"
+            android:text="About"
+            android:textColor="@color/white"
+            android:background="@drawable/buttonbase" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <android.widget.Button
+            android:id="@+id/exhibitsButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="@font/digohweli"
+            android:text="Exhibits"
+            android:textColor="@color/white"
+            android:background="@drawable/buttonbase" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <android.widget.Button
+            android:id="@+id/eventsButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="@font/digohweli"
+            android:text="Events"
+            android:textColor="@color/white"
+            android:background="@drawable/buttonbase" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/appFooter"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/tribalSeal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/tribalseal" />
+
+        <ImageView
+            android:id="@+id/cooperativeExtension"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ncce" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
