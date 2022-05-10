@@ -74,10 +74,11 @@
             android:id="@+id/eventsButton"
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:background="@drawable/buttonbase"
             android:fontFamily="@font/digohweli"
+            android:onClick="openView"
             android:text="Events"
-            android:textColor="@color/white"
-            android:background="@drawable/buttonbase" />
+            android:textColor="@color/white" />
 
     </LinearLayout>
 

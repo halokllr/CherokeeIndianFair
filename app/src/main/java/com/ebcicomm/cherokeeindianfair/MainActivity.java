@@ -3,6 +3,7 @@ package com.ebcicomm.cherokeeindianfair;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -71,5 +72,10 @@ public class MainActivity extends AppCompatActivity {
 
     public String getAboutMessage() {
         return this.aboutMessage;
+    }
+
+    public void openView (View view) {
+        Intent intent = new Intent(this, EventsActivity.class);
+        startActivity(intent);
     }
 }
