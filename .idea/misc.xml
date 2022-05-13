@@ -8,10 +8,12 @@
         <entry key="..\:/Users/stevsmit/AndroidStudioProjects/CherokeeIndianFair/app/src/main/res/drawable/buttonbase.xml" value="0.548" />
         <entry key="..\:/Users/stevsmit/AndroidStudioProjects/CherokeeIndianFair/app/src/main/res/layout/about_dialog.xml" value="0.5461538461538461" />
         <entry key="..\:/Users/stevsmit/AndroidStudioProjects/CherokeeIndianFair/app/src/main/res/layout/activity_about_dialog.xml" value="0.5546875" />
-        <entry key="..\:/Users/stevsmit/AndroidStudioProjects/CherokeeIndianFair/app/src/main/res/layout/activity_events.xml" value="0.5461538461538461" />
-        <entry key="..\:/Users/stevsmit/AndroidStudioProjects/CherokeeIndianFair/app/src/main/res/layout/activity_main.xml" value="0.5461538461538461" />
+        <entry key="..\:/Users/stevsmit/AndroidStudioProjects/CherokeeIndianFair/app/src/main/res/layout/activity_events.xml" value="0.3140625" />
+        <entry key="..\:/Users/stevsmit/AndroidStudioProjects/CherokeeIndianFair/app/src/main/res/layout/activity_main.xml" value="0.3854166666666667" />
         <entry key="..\:/Users/stevsmit/AndroidStudioProjects/CherokeeIndianFair/app/src/main/res/layout/background.xml" value="3.8035714285714284" />
+        <entry key="..\:/Users/stevsmit/AndroidStudioProjects/CherokeeIndianFair/app/src/main/res/layout/event_card.xml" value="0.5546875" />
         <entry key="..\:/Users/stevsmit/AndroidStudioProjects/CherokeeIndianFair/app/src/main/res/layout/events_dialog.xml" value="0.5546875" />
+        <entry key="..\:/Users/stevsmit/AndroidStudioProjects/CherokeeIndianFair/app/src/main/res/layout/events_list.xml" value="0.3854166666666667" />
         <entry key="..\:/Users/stevsmit/AndroidStudioProjects/CherokeeIndianFair/app/src/main/res/layout/exhibit_dialog.xml" value="0.5546875" />
       </map>
     </option>
